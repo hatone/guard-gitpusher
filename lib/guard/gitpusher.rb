@@ -4,7 +4,7 @@ require 'guard/guard'
 module Guard
   class Gitpusher < Guard
   
-    VERSION = '0.1.2'
+    VERSION = '0.2.0'
 
     # Print the result of the command, if there is a result
     # to be printed. (see README.md)
