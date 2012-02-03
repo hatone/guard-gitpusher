@@ -8,7 +8,7 @@ Gem::Specification.new do |s|
   s.platform    = Gem::Platform::RUBY
   s.authors     = ['hatone']
   s.email       = ['b1006006@gmail.com']
-  s.homepage    = 'http://rubygems.org/gems/guard-gitpusher'
+  s.homepage    = 'https://github.com/hatone/guard-gitpusher'
   s.summary     = 'Guard gem for git'
   s.description = 'Guard::Gitpusher automatically runs git commands when watched files are modified.'
   
