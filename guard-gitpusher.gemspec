@@ -1,19 +1,19 @@
 # -*- encoding: utf-8 -*-
 $:.push File.expand_path('../lib', __FILE__)
-require 'guard/shell'
+require 'guard/gitpusher'
 
 Gem::Specification.new do |s|
-  s.name        = 'guard-shell'
-  s.version     = Guard::Shell::VERSION
+  s.name        = 'guard-gitpusher'
+  s.version     = Guard::Gitpusher::VERSION
   s.platform    = Gem::Platform::RUBY
-  s.authors     = ['Joshua Hawxwell']
-  s.email       = ['m@hawx.me']
-  s.homepage    = 'http://rubygems.org/gems/guard-shell'
-  s.summary     = 'Guard gem for running shell commands'
-  s.description = 'Guard::Shell automatically runs shell commands when watched files are modified.'
+  s.authors     = ['hatone']
+  s.email       = ['b1006006@gmail.com']
+  s.homepage    = 'http://rubygems.org/gems/guard-gitpusher'
+  s.summary     = 'Guard gem for git'
+  s.description = 'Guard::Gitpusher automatically runs git commands when watched files are modified.'
   
   s.required_rubygems_version = '>= 1.3.6'
-  s.rubyforge_project         = 'guard-shell'
+  s.rubyforge_project         = 'guard-gitpusher'
   
   s.add_dependency 'guard',   '>= 0.2.0'
   
