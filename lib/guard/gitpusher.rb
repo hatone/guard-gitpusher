@@ -2,7 +2,7 @@ require 'guard'
 require 'guard/guard'
 
 module Guard
-  class Shell < Guard
+  class Gitpusher < Guard
   
     VERSION = '0.1.1'
 

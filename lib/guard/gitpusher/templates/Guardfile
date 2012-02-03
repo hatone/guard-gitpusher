@@ -1,6 +1,3 @@
-# Add files and commands to this file, like the example:
-#   watch(%r{file/path}) { `command(s)` }
-#
 guard 'gitpusher' do
-  watch(/(.*)/) {|m| `git add -u;git add -a;git commit -m "auto upload";git push` } 
+  watch(/(.*)/) {|m| `git add -u;git add -a;git commit -m "auto upload by gitpusher";git push` } 
 end
